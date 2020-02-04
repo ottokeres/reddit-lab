@@ -1,0 +1,5 @@
+<div class="post" *ngFor="let aww of awws">
+    <h2>{{aww.data.title}}</h2>
+    <img [src]="aww.data.thumbnail">
+    <a [href]="aww.data.url">link</a>
+</div>
